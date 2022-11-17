@@ -12,15 +12,15 @@ Telegram [tvoychebureck](https://t.me/tvoychebureck)
 
 #### Junior Python Developer (Apr 2022 - ongoing)
 
-- Iqutor
+  Iqutor
 
 #### Junior Python Developer (Jan 2021 - Feb 2022)
 
-- Freelance
+  Freelance
 
 #### Intern Backend Typescript Developer (Oct 2021 - Dec 2021)
 
-- RobotBull Technologies
+  RobotBull Technologies
 
 
 ## Education
