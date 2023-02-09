@@ -10,15 +10,15 @@ Telegram [tvoychebureck](https://t.me/tvoychebureck)
 
 ## Experience
 
-- #### Junior Python Developer (Apr 2022 - ongoing)
+- #### CI/CD Engineer (Dec 2022 - ongoing)
+
+  LoyaltyPlant
+
+- #### Junior Backend Developer (Apr 2022 - Jan 2023)
 
   Iqutor
 
-- #### Junior Python Developer (Jan 2021 - Feb 2022)
-
-  Freelance
-
-- #### Intern Backend Typescript Developer (Oct 2021 - Dec 2021)
+- #### Intern Backend Developer (Oct 2021 - Dec 2021)
 
   RobotBull Technologies
 
@@ -43,7 +43,6 @@ PostgreSQL, Celery, RabbitMQ, Minio, Redis
 ## Languages
 
 - English - advanced
-- Russian - native
 - German - beginner
-
+- Russian - native
 
