@@ -1,6 +1,6 @@
 # Ekaterina Ivanova
 
-### Junior Python Developer
+### Software Development Engineer
 
 Email: katenika158@gmail.com  
 LinkedIn: [kate-iv](https://linkedin.com/in/kate-iv)  
