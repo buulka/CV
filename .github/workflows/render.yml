@@ -19,6 +19,14 @@ jobs:
         with:
           name: PDF
           path: cv.pdf
+      - name: Commit rendered CV
+        run: |
+          git config --global user.name 'github-actions bot'
+          git config --global user.email 'katenika158@gmail.com'
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git add cv.pdf
+          git commit -m "Publish rendered CVs"
+          git push      
   render_ru:
     runs-on: ubuntu-latest
     steps:
@@ -31,21 +39,16 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: PDF_ru
-          path: cv_ru.pdf       
-  commit_files:
-    runs-on: ubuntu-latest
-    needs: [render, render_ru]
-    steps: 
-      - uses: actions/checkout@v4
-      - name: Commit rendered CVs
+          path: cv_ru.pdf  
+      - name: Commit rendered CV
         run: |
           git config --global user.name 'github-actions bot'
           git config --global user.email 'katenika158@gmail.com'
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git add cv_ru.pdf
-          git add cv.pdf
           git commit -m "Publish rendered CVs"
           git push
+
       
       
     
