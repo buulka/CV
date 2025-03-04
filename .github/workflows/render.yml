@@ -31,7 +31,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Compile cv.tex
+      - name: Compile cv_ru.tex
         uses: xu-cheng/latex-action@v2
         with:
           root_file: cv_ru.tex
@@ -45,7 +45,7 @@ jobs:
           git config --global user.name 'github-actions bot'
           git config --global user.email 'katenika158@gmail.com'
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-          git add cv.pdf
+          git add cv_ru.pdf
           git commit -m "Publish rendered ru CV"
           git push
 
